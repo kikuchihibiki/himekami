@@ -1,22 +1,22 @@
+/* メインコンテンツ */
 /* スライドショー */
 div#carousel { 
-    perspective: 1200px; 
-    background: #100000; 
-    padding-top: 10%; 
+    perspective: 1200px; /*スライドショーの横幅：画像全体*/
+    background: #fff; 
+    padding-top: 10px; 
     font-size:0; 
-    margin-bottom: 3rem; 
     overflow: hidden; 
 }
 figure#spinner { 
-    transform-style: preserve-3d; 
-    height: 300px; 
-    transform-origin: 50% 50% -500px; 
-    transition: 1s; 
+    transform-style: preserve-3d;
+    height: 300px;
+    transform-origin: 50% 50% -500px;
+    transition: 1s;
 } 
 figure#spinner img { 
-    width: 40%; max-width: 425px; 
-    position: absolute; left: 30%;
-    transform-origin: 50% 50% -500px;
+    width: 40%; max-width: 450px; 
+    position: absolute; left: 30%;/*スライドショーの場所：横*/
+    transform-origin: 50% 50% -600px;
     outline:1px solid transparent; 
 }
 figure#spinner img:nth-child(1) { transform:rotateY(0deg); 
@@ -29,7 +29,7 @@ figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
 figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
 figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
 div#carousel ~ span { 
-    color: #fff; 
+    color: #000; 
     margin: 5%; 
     display: inline-block; 
     text-decoration: none; 
