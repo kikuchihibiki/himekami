@@ -60,6 +60,39 @@
         </p>
     </section>
 
+    <section class="seminar" id = "detail">
+        <h2>セミナーについて</h2>
+        <div class="tabs">
+            <input id="employee_training" type="radio" name="tab_item" checked/>
+            <label class="tab_item" for="employee_training">新人研修</label>
+            <input id="smile_training" type="radio" name="tab_item"  />
+            <label class="tab_item" for="smile_training">スマイルトレーニング</label>
+            <input id="hospitality" type="radio" name="tab_item" />
+            <label class="tab_item" for="hospitality">ホスピタリティ</label>
+
+            <div class="tab_content" id="training_content">
+              <div class="tab_content_description">
+                <img src="img/detail_1.jpg" alt="新人研修" />
+            
+                <p class="c-txtsp">第一印象は一度きり！
+                印象の良い笑顔のやり方を知って、会って0.5秒でステキと思われたくないですか？
+                どんな時でもできるように自分の顔のクセを発見して、一緒にトレーニングを積み重ねて改善しましょう。
+                自分が笑っていると相手も笑ってくれます。
+              </div>
+        </div>
+        <div class="tab_content" id="smile_content">
+          <div class="tab_content_description">
+            <p class="c-txtsp">プログラミングの内容がここに入ります</p>
+          </div>
+        </div>
+        <div class="tab_content" id="hospitality_content">
+          <div class="tab_content_description">
+            <p class="c-txtsp">デザインの内容がここに入ります</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
     <section>
         <h2>セミナーの感想</h2>
         <div>
@@ -110,39 +143,6 @@
         <p>SCROLL</p>
     </section>
     
-    <section class="seminar" id = "detail">
-      <h2>セミナーについて</h2>
-      <div class="tabs">
-        <input id="employee_training" type="radio" name="tab_item" checked/>
-        <label class="tab_item" for="employee_training">新人研修</label>
-        <input id="smile_training" type="radio" name="tab_item"  />
-        <label class="tab_item" for="smile_training">スマイルトレーニング</label>
-        <input id="hospitality" type="radio" name="tab_item" />
-        <label class="tab_item" for="hospitality">ホスピタリティ</label>
-
-        <div class="tab_content" id="training_content">
-          <div class="tab_content_description">
-            <img src="img/detail_1.jpg" alt="新人研修" />
-            
-            <p class="c-txtsp">第一印象は一度きり！
-            印象の良い笑顔のやり方を知って、会って0.5秒でステキと思われたくないですか？
-            どんな時でもできるように自分の顔のクセを発見して、一緒にトレーニングを積み重ねて改善しましょう。
-            自分が笑っていると相手も笑ってくれます。
-          </div>
-        </div>
-        <div class="tab_content" id="smile_content">
-          <div class="tab_content_description">
-            <p class="c-txtsp">プログラミングの内容がここに入ります</p>
-          </div>
-        </div>
-        <div class="tab_content" id="hospitality_content">
-          <div class="tab_content_description">
-            <p class="c-txtsp">デザインの内容がここに入ります</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <footer>
         <p>工藤晴香 h.k smile office</p>
         <p>hksmileoffice@gmail.com</p>
