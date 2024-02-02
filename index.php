@@ -15,11 +15,11 @@
             <a href="">お問い合わせ</a>
         </div>
         <ul>
-            <li><a href="">セミナーについて</a></li>
-            <li><a href="">セミナー開始までの流れ</a></li>
-            <li><a href="">セミナーの感想</a></li>
-            <li><a href="">スマイルトレーナーとは</a></li>
-            <li><a href="">講師紹介</a></li>
+            <li><a href="#detail">セミナーについて</a></li>
+            <li><a href="#li1">セミナー開始までの流れ</a></li>
+            <li><a href="#li2">セミナーの感想</a></li>
+            <li><a href="#li3">スマイルトレーナーとは</a></li>
+            <li><a href="#li4">講師紹介</a></li>
         </ul>
     </header>
 
@@ -51,7 +51,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="li3">
         <h2>スマイルトレーナーとは？</h2>
         <p>
             笑顔あふれる人々を一気に広げたいという美有姫がスタートした独自の資格認定講座を合格した人達です。<br>
@@ -93,7 +93,7 @@
       </div>
     </section>
     
-    <section>
+    <section id="li2">
         <h2>セミナーの感想</h2>
         <div>
             <p>従業員が楽しそうだった、最近忙しかったからあんなに笑っている顔を見ることができて嬉しいのでリフレッシュのために続けたい。</p>
@@ -109,7 +109,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="li1">
         <h2>セミナー開始までの流れ</h2>
         <div class="scroll">
             <div>
@@ -143,7 +143,7 @@
         <p>SCROLL</p>
     </section>
 
-    <section>
+    <section id="li4">
         <h2>講師紹介</h2>
         <p>工藤晴香</p>
         <p>
@@ -172,6 +172,8 @@
             <p>NHK盛岡「Iwateen」（面接対策）、「あさイチ」（温泉紹介）、テレビ岩手「ニュースプラスワン 特集」</p>
         </div>
     </section>
+
+    <a href="">お問い合わせ</a>
     
     <footer>
         <p>工藤晴香 h.k smile office</p>
