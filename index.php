@@ -9,7 +9,18 @@
 </head>
 <body>
     <header>
-    
+        <h1><span>工藤晴香</span> h.k smile office</h1>
+        <div>
+            <a href="">セミナー依頼</a>
+            <a href="">お問い合わせ</a>
+        </div>
+        <ul>
+            <li><a href="">セミナーについて</a></li>
+            <li><a href="">セミナー開始までの流れ</a></li>
+            <li><a href="">セミナーの感想</a></li>
+            <li><a href="">スマイルトレーナーとは</a></li>
+            <li><a href="">講師紹介</a></li>
+        </ul>
     </header>
 
     <section>
@@ -50,7 +61,11 @@
     </section>
     
     <footer>
-
+        <p>工藤晴香 h.k smile office</p>
+        <p>hksmileoffice@gmail.com</p>
+        <p>000-0000-0000</p>
+        <a href="">インスタ</a>
+        <a href="">Facebook</a>
     </footer>
     <script src="js/script.js"></script>
 </body>
