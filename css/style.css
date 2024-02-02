@@ -41,3 +41,14 @@ div#carousel ~ span {
     line-height: 0;
 }
 div#carousel ~ span:hover { color: #888; cursor: pointer; }
+
+/* セミナーの流れ　スクロール */
+.scroll{
+    width:300px;
+    height: 100px;
+    overflow: auto;
+}
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
