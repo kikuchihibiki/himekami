@@ -98,3 +98,15 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
     background-color: #5ab4bd;
     color: #fff;
   } 
+
+/* セミナーの流れ　スクロール */
+.scroll{
+    width:300px;
+    height: 100px;
+    overflow: auto;
+}
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+
