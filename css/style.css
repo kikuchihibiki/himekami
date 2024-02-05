@@ -10,23 +10,22 @@
 
 /* スライドショー */
 div#carousel { 
-    perspective: 1200px; 
-    background: #100000; 
-    padding-top: 10%; 
+    perspective: 1200px; /*スライドショーの横幅：画像全体*/
+    background: #fff; 
+    padding-top: 10px; 
     font-size:0; 
-    margin-bottom: 3rem; 
     overflow: hidden; 
 }
 figure#spinner { 
-    transform-style: preserve-3d; 
-    height: 300px; 
-    transform-origin: 50% 50% -500px; 
-    transition: 1s; 
+    transform-style: preserve-3d;
+    height: 300px;
+    transform-origin: 50% 50% -500px;
+    transition: 1s;
 } 
 figure#spinner img { 
-    width: 40%; max-width: 425px; 
-    position: absolute; left: 30%;
-    transform-origin: 50% 50% -500px;
+    width: 40%; max-width: 450px; 
+    position: absolute; left: 30%;/*スライドショーの場所：横*/
+    transform-origin: 50% 50% -600px;
     outline:1px solid transparent; 
 }
 figure#spinner img:nth-child(1) { transform:rotateY(0deg); 
@@ -39,7 +38,7 @@ figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
 figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
 figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
 div#carousel ~ span { 
-    color: #fff; 
+    color: #000; 
     margin: 5%; 
     display: inline-block; 
     text-decoration: none; 
@@ -57,10 +56,75 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 /* スマイルトレーナーとは */
 
 /* セミナーについて */
+#detail .tabs {
+    margin-top: 50px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin: 0 auto;}
+#detail .tab_item {
+    width: calc(100%/3);
+    height: 50px;
+    border-bottom: 3px solid #5ab4bd;
+    background-color: #d9d9d9;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+    color: #565656;
+    display: block;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.2s ease;
+  }
+#detail .tab_item:hover {
+    opacity: 0.75;
+  }
+  
+#detail input[name="tab_item"] {
+    display: none;
+  }
+  
+#detail .tab_content {
+    display: none;
+    padding: 40px 40px 0;
+    clear: both;
+    overflow: hidden;
+  }
+#detail .tab_content_description{
+    display: flex;
+    /* position: absolute; */
+    
+   }
+#detail img{
+    height: 500px;
+    width: 400px;
+    border-radius: 50%;
+}
+  #employee_training:checked ~ #training_content,
+  #smile_training:checked ~ #smile_content,
+  #hospitality:checked ~ #hospitality_content {
+    display: block;
+  }
+  
+#detail .tabs input:checked + .tab_item {
+    background-color: #5ab4bd;
+    color: #fff;
+  } 
 
 /* セミナーの感想 */
 
 /* セミナー開始までの流れ */
+.scroll{
+    width:300px;
+    height: 100px;
+    overflow: auto;
+}
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
 
 /* 講師紹介 */
 
