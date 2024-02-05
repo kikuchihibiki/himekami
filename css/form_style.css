@@ -1,0 +1,56 @@
+#inquiry .tabs {
+    margin-top: 50px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin: 0 auto;}
+#inquiry .tab_item {
+    width: calc(100%/2);
+    height: 50px;
+    border-bottom: 3px solid #5ab4bd;
+    background-color: #d9d9d9;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+    color: #565656;
+    display: block;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.2s ease;
+  }
+#inquiry .tab_item:hover {
+    opacity: 0.75;
+  }
+  
+#inquiry input[name="tab_item"] {
+    display: none;
+  }
+  
+#inquiry .tab_content {
+    display: none;
+    padding: 40px 40px 0;
+    clear: both;
+    overflow: hidden;
+  }
+#inquiry .tab_content_description{
+    display: flex;
+    /* position: absolute; */
+    
+   }
+#inquiry img{
+    height: 500px;
+    width: 400px;
+    border-radius: 50%;
+}
+  #employee_training:checked ~ #training_content,
+  #smile_training:checked ~ #smile_content,
+  #hospitality:checked ~ #hospitality_content {
+    display: block;
+  }
+  
+#inquiry .tabs input:checked + .tab_item {
+    background-color: #5ab4bd;
+    color: #fff;
+  } 
