@@ -1,3 +1,13 @@
+/* 共通部分 */
+:root {
+    --color1 : #FFF5F7;
+	--color2 : #FBC3BC;
+    --main-size : 18px;
+    --title-size : 28px;
+}
+
+/* ヘッダー */
+
 /* スライドショー */
 div#carousel { 
     perspective: 1200px; 
@@ -41,3 +51,19 @@ div#carousel ~ span {
     line-height: 0;
 }
 div#carousel ~ span:hover { color: #888; cursor: pointer; }
+
+/* メインコンテンツ */
+
+/* スマイルトレーナーとは */
+
+/* セミナーについて */
+
+/* セミナーの感想 */
+
+/* セミナー開始までの流れ */
+
+/* 講師紹介 */
+
+/* お問い合わせボタン */
+
+/* フッダー */
