@@ -1,4 +1,13 @@
-/* メインコンテンツ */
+/* 共通部分 */
+:root {
+    --color1 : #FFF5F7;
+	--color2 : #FBC3BC;
+    --main-size : 18px;
+    --title-size : 28px;
+}
+
+/* ヘッダー */
+
 /* スライドショー */
 div#carousel { 
     perspective: 1200px; /*スライドショーの横幅：画像全体*/
@@ -41,6 +50,11 @@ div#carousel ~ span {
     line-height: 0;
 }
 div#carousel ~ span:hover { color: #888; cursor: pointer; }
+
+/* メインコンテンツ */
+
+/* スマイルトレーナーとは */
+
 /* セミナーについて */
 #detail .tabs {
     margin-top: 50px;
@@ -99,7 +113,9 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
     color: #fff;
   } 
 
-/* セミナーの流れ　スクロール */
+/* セミナーの感想 */
+
+/* セミナー開始までの流れ */
 .scroll{
     width:300px;
     height: 100px;
@@ -110,3 +126,8 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
     display: none;
 }
 
+/* 講師紹介 */
+
+/* お問い合わせボタン */
+
+/* フッダー */
