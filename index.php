@@ -42,8 +42,8 @@
     </section>
 
     <section>
-        <p class="">キャッチコピー</p>
-        <div class="">
+        <p class="catch_copy">笑顔とともに生きていく</p>
+        <div class="main_contents">
             <p>いつでもどこでもだれにでも自然な笑顔</p>
             <p>そこにホスピタリティマインドと<br>ビジネスマナー研修で好印象</p>
             <p>自分の容姿に自信がない<br>人付き合いに自信がない<br>かつての私もそうでした</p>

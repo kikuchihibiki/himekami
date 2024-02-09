@@ -130,6 +130,24 @@ div#carousel ~ span {
 div#carousel ~ span:hover { color: #888; cursor: pointer; }
 
 /* メインコンテンツ */
+.catch_copy {
+  font-size: 21px;
+  height: 65px;
+  background:linear-gradient(90deg, var(--color2) 0%, #ffddd9 20%);
+  text-align:center;
+  padding: 20px 0;
+}
+
+.main_contents{
+  margin: 0 auto;
+  width: 100%;
+  padding: 40px;
+  background-color: #FFF5F7;
+  box-shadow:inset 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 18px;
+  line-height: 2.0;
+}
 
 /* スマイルトレーナーとは */
 .about{
