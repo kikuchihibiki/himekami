@@ -269,14 +269,19 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 /* セミナーの感想 */
 
 /* セミナー開始までの流れ */
+.scroll_img{
+  /* background-image: url('/img/scroll_img.jpg'); */
+  background-color: #888;
+  background-repeat: no-repeat;
+}
 .scroll{
-    width:300px;
-    height: 100px;
-    overflow: auto;
+  width:300px;
+  height: 100px;
+  overflow: auto;
 }
 
 .scroll::-webkit-scrollbar{
-    display: none;
+  display: none;
 }
 
 /* 講師紹介 */
