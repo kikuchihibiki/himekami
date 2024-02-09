@@ -137,6 +137,29 @@ div#carousel ~ span {
 div#carousel ~ span:hover { color: #888; cursor: pointer; }
 
 /* メインコンテンツ */
+.catch_copy {
+  font-size: 21px;
+  height: 65px;
+  background:linear-gradient(90deg, var(--color2) 0%, #ffddd9 20%);
+  text-align:center;
+  padding: 20px 0;
+}
+
+.main_contents{
+  margin: 0 auto;
+  width: 100%;
+  padding: 40px;
+  background: linear-gradient(to right,transparent,#FFFFFF 10%, #FFF5F7,80%,#FFFFFF);
+  text-align: center;
+  font-size: 18px;
+  line-height: 2.0;
+}
+
+.main_contents p {
+  margin: 20px;
+  padding: 0 60px;
+  text-align: center;
+}
 
 /* スマイルトレーナーとは */
 .about{
