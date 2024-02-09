@@ -52,16 +52,19 @@
     </section>
 
     <section id="li3">
-        <h2>スマイルトレーナーとは？</h2>
-        <p>
-            笑顔あふれる人々を一気に広げたいという美有姫がスタートした独自の資格認定講座を合格した人達です。<br>
-            美有姫たった一人の力では、世界中を笑顔にするトレーニングの手が足りないことをきっかけに、トレーナーとして一緒に笑顔あふれる世の中に貢献しています。<br>
-            受講した人達がポジティブで幸せな生活を送る手助けをすることを目指す、それがスマイルトレーナーです。
-        </p>
+        <div class="about">
+            <h2 class="underline">スマイルトレーナーとは？</h2>
+            <p>
+                笑顔あふれる人々を一気に広げたいという美有姫がスタートした独自の資格認定講座を合格した人達です。<br>
+                美有姫たった一人の力では、世界中を笑顔にするトレーニングの手が足りないことをきっかけに、トレーナーとして一緒に笑顔あふれる世の中に貢献しています。<br>
+                受講した人達がポジティブで幸せな生活を送る手助けをすることを目指す、それがスマイルトレーナーです。
+            </p>
+            <img src="img/clip_memo.png"/>
+        </div>
     </section>
 
     <section class="seminar" id = "detail">
-        <h2>セミナーについて</h2>
+        <span><h2>セミナーについて</h2></span>
         <div class="tabs">
             <input id="employee_training" type="radio" name="tab_item" checked/>
             <label class="tab_item" for="employee_training">新人研修</label>
