@@ -9,10 +9,10 @@
 </head>
 <body>
     <header>
-        <h1><span>工藤晴香</span> h.k smile office</h1>
-        <div>
-            <a href="">セミナー依頼</a>
-            <a href="">お問い合わせ</a>
+        <h1 class="header_title"><span>工藤晴香</span> h.k smile office</h1>
+        <div class="header_button">
+            <a href="" class="h_button">セミナー依頼</a>
+            <a href="" class="h_button">お問い合わせ</a>
         </div>
         <ul>
             <li><a href="#detail">セミナーについて</a></li>
