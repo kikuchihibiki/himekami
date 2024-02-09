@@ -88,17 +88,21 @@ header li a:hover::after {
 
 /* スライドショー */
 div#carousel { 
-    perspective: 1200px; /*スライドショーの横幅：画像全体*/
-    background: #fff; 
-    padding-top: 10px; 
-    font-size:0; 
-    overflow: hidden; 
+  perspective: 1200px; /*スライドショーの横幅：画像全体*/
+  background-image: url('/img/slide_back.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 10px; 
+  margin-top: 100px;
+  font-size:0; 
+  overflow: hidden; 
 }
 figure#spinner { 
-    transform-style: preserve-3d;
-    height: 300px;
-    transform-origin: 50% 50% -500px;
-    transition: 1s;
+  transform-style: preserve-3d;
+  height: 300px;
+  transform-origin: 50% 50% -500px;
+  transition: 1s;
+  
 } 
 figure#spinner img { 
     width: 40%; max-width: 450px; 
