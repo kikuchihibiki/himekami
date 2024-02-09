@@ -54,6 +54,36 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 /* メインコンテンツ */
 
 /* スマイルトレーナーとは */
+.about{
+    position: relative;
+    width: 55%;
+    min-width: 400px;
+    margin: 0 auto;
+  }
+
+.about h2 {
+    position: absolute;
+    top: 30%;
+    color: #000;
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    background:linear-gradient(90deg, var(--color2) 0%, #ffddd9 20%);
+    background-repeat: no-repeat;
+    background-size: 60% 50%;
+    background-position: bottom;
+  }
+
+.about p {
+  position: absolute;
+  top: 45%;
+  color: #000;
+  width: 100%;
+  font-size: 18px;
+  margin: 0 auto;
+  padding: 0 60px;
+  text-align: center;
+}
 
 /* セミナーについて */
 #detail .tabs {
