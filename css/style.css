@@ -1,12 +1,90 @@
 /* 共通部分 */
 :root {
-    --color1 : #FFF5F7;
-	--color2 : #FBC3BC;
-    --main-size : 18px;
-    --title-size : 28px;
+  --color1 : #FFF5F7;
+  --color2 : #FBC3BC;
+  --main-size : 18px;
+  --title-size : 28px;
+}
+a{
+  text-decoration: none;
 }
 
 /* ヘッダー */
+header{
+  display: flex;
+  position: fixed;
+  width:100%;
+  height: 90px;
+  left:0;
+  top:0;
+  margin:0;
+  background-color: #FFF;
+  z-index:1001;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.header_title{
+  background: linear-gradient(transparent 60%, var(--color2) 60%);
+  background-repeat: no-repeat;
+	background-size: 100% 30%;
+	background-position: bottom;
+  margin-bottom: 40px;
+}
+
+.header_button{
+	position: fixed;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+.header_button a{
+  float: left;
+  display: block;
+  text-align: center;
+  margin-left: 10px;
+  padding: 5px 0 5px 0;
+  width: 200px;
+  border-radius: 10rem;
+  color: #000;
+  background: linear-gradient(to right, var(--color2) 0%, var(--color1) 50%, var(--color2) 100%);
+  border: 1px solid var(--color2);
+  background-position: 0 50%;
+  background-size: 200% auto;
+  transition: background-position 0.3s ease-in-out;
+}
+.header_button a:hover{
+  background-position: 100% 50%;
+}
+
+header ul{
+  margin: 55px 0 0 0;
+}
+
+header li{
+  float: left;
+  list-style:none;
+  padding-left: 30px;
+}
+header li a{
+  color: #000;
+  position: relative;
+
+}
+header li a::after {
+  position: absolute;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 4px;
+  background: var(--color2);
+  bottom: -1px;
+  transform: scale(0,1);
+  transform: left top;
+  transition: transform 0.3s;
+}
+header li a:hover::after {
+  transform: scale(1,1);
+}
 
 /* スライドショー */
 div#carousel { 
