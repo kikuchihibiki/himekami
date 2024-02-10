@@ -433,6 +433,54 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 }
 
 /* 講師紹介 */
+#li4{
+  /* width: 80%; */
+  padding: 50px 10% 50px 10%;
+  background:linear-gradient(90deg, var(--color1) 0%, #FFF3F5 20%, var(--color1) 90%);
+}
+#li4 h3{
+  clear: both;
+  padding: 50px 0 0 50px;
+}
+.k_introduction_img{
+  float: left;
+  width: 40%;
+  height: 270px;
+  object-fit: cover;
+  margin: 0 0 0 50px;
+  border-radius: 50px;
+}
+.k_introduction_text{
+  float: left;
+  width: 50%;
+  height: 270px;
+  padding: 50px 50px 10px 50px;
+}
+.k_achievements{
+  clear: both;
+  /* margin: 50px 0 0 0; */
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.k_achievements_item{
+  /* width: 50%; */
+  height: 250px;
+  border-radius: 50%;
+  border: 1px solid #F99A8F;
+  padding: 50px 50px 0 50px;
+}
+.k_a_item1{
+  background-color: #FFE3DF;
+}
+.k_a_item2{
+  background-color: #FFE7E4;
+}
+.k_a_item3{
+  background-color: #FEF0EF;
+}
+.k_a_item4{
+  background-color: #FFFBFA;
+}
 
 /* お問い合わせボタン */
 
