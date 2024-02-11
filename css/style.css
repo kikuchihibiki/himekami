@@ -485,3 +485,20 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 /* お問い合わせボタン */
 
 /* フッダー */
+footer{
+  height: 200px;
+  background: linear-gradient(var(--color2), var(--color1));
+  padding: 30px 50px;
+}
+.footer_name{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.footer_a{
+  background-color: #000;
+}
+.insta_img{
+  margin: 5px 10px 0 0;
+  width: 40px;
+  float: left;
+}
