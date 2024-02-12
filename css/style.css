@@ -290,6 +290,39 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 }
 
 /* セミナーの感想 */
+.impressions {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px 0;
+}
+.impressions_item {
+  width: calc((100% - 47.5%) / 1.5);
+  height: 150px;
+  border: 1px solid #FBC3BC;
+  margin: 50px auto;
+  padding: 20px 75px;
+  border-radius: 100px;
+  position: relative;
+}
+.impressions_contents {
+  width: 100%;
+  opacity:1;
+  height: 150px;
+  text-align: left;
+  border: 5px solid #FBC3BC;
+  margin: -10px -60px;
+  padding: 30px 20px;
+  border-radius: 100px;
+  position: absolute;
+}
+.impressions_item img {
+  position: absolute;
+  max-width: 75px;
+  top: 100px; /* 好みに合わせて top の値を調整 */
+  left: -10px; /* 好みに合わせて left の値を調整 */
+  display: block;
+  z-index: 1;
+}
 
 /* セミナー開始までの流れ */
 .scroll_container{
