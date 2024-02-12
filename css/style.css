@@ -483,5 +483,43 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 }
 
 /* お問い合わせボタン */
+.bottom_inquiry{
+  display: block;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	width: 500px;
+	margin: 100px auto 200px auto;
+	padding: 1rem 4rem;
+  font-size: 1.2rem;
+	font-weight: bold;
+	border-radius: 1rem;
+	border: 2px solid var(--color2);
+	color: #000;
+	box-shadow: 5px 5px 0 var(--color2);
+	transition: 0.3s ease-in-out;
+}
+.bottom_inquiry:hover{
+  box-shadow: 0 0 0 var(--color2);
+	transform: translate(5px, 5px);
+	color: #000;
+}
 
 /* フッダー */
+footer{
+  height: 200px;
+  background: linear-gradient(var(--color2), var(--color1));
+  padding: 30px 50px;
+}
+.footer_name{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.footer_a{
+  background-color: #000;
+}
+.insta_img{
+  margin: 5px 10px 0 0;
+  width: 40px;
+  float: left;
+}
