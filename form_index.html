@@ -8,20 +8,27 @@
   </head>
   <body>
     <header>
-      <h1><span>工藤晴香</span> h.k smile office</h1>
-      <div>
-        <a href="">セミナー依頼</a>
-        <a href="">お問い合わせ</a>
+      <h1 class="header_title"><span>工藤晴香</span> h.k smile office</h1>
+      <div class="header_button">
+        <a href="" class="h_button">セミナー依頼</a>
+        <a href="" class="h_button">お問い合わせ</a>
       </div>
       <ul>
-        <li><a href="">セミナーについて</a></li>
-        <li><a href="">セミナー開始までの流れ</a></li>
-        <li><a href="">セミナーの感想</a></li>
-        <li><a href="">スマイルトレーナーとは</a></li>
-        <li><a href="">講師紹介</a></li>
+        <li><a href="#detail">セミナーについて</a></li>
+        <li><a href="#li1">セミナー開始までの流れ</a></li>
+        <li><a href="#li2">セミナーの感想</a></li>
+        <li><a href="#li3">スマイルトレーナーとは</a></li>
+        <li><a href="#li4">講師紹介</a></li>
       </ul>
     </header>
     <section class="inquiry" id="inquiry">
+      <div class="container">
+        <div class="oval-container">
+          <div class="oval">お問い合わせ内容</div>
+          <div class="oval">確認</div>
+          <div class="oval">完了</div>
+        </div>
+      </div>
       <div class="tabs">
         <input id="employee_training" type="radio" name="tab_item" checked />
         <label class="tab_item" for="employee_training">お問い合わせ</label>
@@ -31,31 +38,104 @@
         <div class="tab_content" id="training_content">
           <div class="tab_content_description">
             <p class="c-txtsp"></p>
-            <label>お問い合わせ</label>
-            <form method="post" action="#">
-              <p>名前 <input type="text" /></p>
-              <p>企業名 <input type="text" /></p>
-              <p>連絡先電話番号 <input type="text" /></p>
-              <p>連絡先E-mailアドレス <input type="text" /></p>
-              <textarea></textarea>
-              <button type="submit">送信</button>
-            </form>
+            <div class="form">
+              <p class="required-text">*は必須項目です</p>
+              <div class="input-group">
+                <label for="first_name">名前*</label>
+                <input
+                  type="text"
+                  id="first_name"
+                  name="first_name"
+                  placeholder="名字"
+                />
+                <input
+                  type="text"
+                  id="last_name"
+                  name="last_name"
+                  placeholder="名前"
+                />
+              </div>
+              <div class="input-group">
+                <label for="company">企業名</label>
+                <input type="text" id="company" name="company" />
+              </div>
+              <div class="input-group">
+                <label for="email">メールアドレス*</label>
+                <input type="text" id="email" name="email" />
+              </div>
+              <div class="input-group">
+                <label for="phone">電話番号*</label>
+                <input type="text" id="phone" name="phone" />
+              </div>
+              <div class="input-group">
+                <label for="inquiry">お問い合わせ内容*</label>
+                <textarea id="inquiry" name="inquiry"></textarea>
+              </div>
+              <button type="submit">確認画面へ</button>
+              <a href="index.html">戻る</a>
+            </div>
           </div>
         </div>
         <div class="tab_content" id="smile_content">
           <div class="tab_content_description">
             <p class="c-txtsp"></p>
-            <label>依頼</label>
-            <form method="post" action="#">
-              <p>名前 <input type="text" /></p>
-              <p>連絡先電話番号 <input type="text" /></p>
-              <p>連絡先E-mailアドレス <input type="text" /></p>
-              <button type="submit">送信</button>
-            </form>
+            <div class="form">
+              <p class="required-text">*は必須項目です</p>
+              <div class="input-group">
+                <label for="first_name">名前*</label>
+                <input
+                  type="text"
+                  id="first_name"
+                  name="first_name"
+                  placeholder="名字"
+                />
+                <input
+                  type="text"
+                  id="last_name"
+                  name="last_name"
+                  placeholder="名前"
+                />
+              </div>
+              <div class="input-group">
+                <label for="company">企業名</label>
+                <input type="text" id="company" name="company" />
+              </div>
+              <div class="input-group">
+                <label for="email">メールアドレス*</label>
+                <input type="text" id="email" name="email" />
+              </div>
+              <div class="input-group">
+                <label for="phone">電話番号*</label>
+                <input type="text" id="phone" name="phone" />
+              </div>
+              <div class="input-group">
+                <label for="Content">セミナーの内容</label>
+                <select name="Content" id="Content">
+                  <option value="新人研修">新人研修</option>
+                  <option value="スマイル">スマイルトレーニング</option>
+                  <option value="ホスピタリティ">ホスピタリティ</option>
+                </select>
+              </div>
+              <div class="input-group">
+                <label for="day">希望日時</label>
+                <select name="day" id="day">
+                  <option value="">2024/02/02</option>
+                  <option value="">2024/02/02</option>
+                  <option value="">2024/02/02</option>
+                </select>
+              </div>
+              <div class="input-group">
+                <label for="inquiry">依頼内容</label>
+                <textarea id="inquiry" name="inquiry"></textarea>
+              </div>
+              <button type="submit">確認画面へ</button>
+              <a href="index.html">戻る</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
     <footer>
       <p>工藤晴香 h.k smile office</p>
       <p>hksmileoffice@gmail.com</p>
