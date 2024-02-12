@@ -123,16 +123,16 @@ figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
 figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
 figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
 div#carousel ~ span { 
-    color: #000; 
-    margin: 5%; 
-    display: inline-block; 
-    text-decoration: none; 
-    font-size: 2rem; 
-    transition: 0.6s color; 
-    position: relative; 
-    margin-top: -6rem; 
-    border-bottom: none; 
-    line-height: 0;
+  color: #000; 
+  margin: 5%; 
+  display: inline-block; 
+  text-decoration: none; 
+  font-size: 2rem; 
+  transition: 0.6s color; 
+  position: relative; 
+  margin-top: -6rem; 
+  border-bottom: none; 
+  line-height: 0;
 }
 div#carousel ~ span:hover { color: #888; cursor: pointer; }
 
@@ -163,24 +163,24 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 
 /* スマイルトレーナーとは */
 .about{
-    position: relative;
-    width: 55%;
-    min-width: 400px;
-    margin: 0 auto;
-  }
+  position: relative;
+  width: 55%;
+  min-width: 400px;
+  margin: 0 auto;
+}
 
 .about h2 {
-    position: absolute;
-    top: 30%;
-    color: #000;
-    width: 100%;
-    font-size: 24px;
-    text-align: center;
-    background:linear-gradient(90deg, var(--color2) 0%, #ffddd9 20%);
-    background-repeat: no-repeat;
-    background-size: 60% 50%;
-    background-position: bottom;
-  }
+  position: absolute;
+  top: 30%;
+  color: #000;
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  background:linear-gradient(90deg, var(--color2) 0%, #ffddd9 20%);
+  background-repeat: no-repeat;
+  background-size: 60% 50%;
+  background-position: bottom;
+}
 
 .about p {
   position: absolute;
@@ -201,7 +201,6 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
   margin-top: 50px;
   padding-bottom: 40px;
   background-color: #fff;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
   width: 80%;
   margin: 0 auto;
 }
@@ -452,8 +451,8 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
       transform: translateY(3em) scale(0.5);
     opacity: 0;
   }
-  }
-  @keyframes arrow-move07 {
+}
+@keyframes arrow-move07 {
   25% {
     opacity: 0.6;
   }
@@ -469,7 +468,7 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
   }
   100% {
     -webkit-transform: translateY(3em) scale(0.5);
-      transform: translateY(3em) scale(0.5);
+    transform: translateY(3em) scale(0.5);
     opacity: 0;
   }
 }

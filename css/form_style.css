@@ -95,7 +95,7 @@ header li a:hover::after {
   margin: 100px auto 0;
   padding-top: 20px; /* 上部の隙間 */
   padding-bottom: 20px; /* 下部の隙間 */
-  width: 80%;
+  width: 70%;
 }
 
 .oval-container {
@@ -107,28 +107,41 @@ header li a:hover::after {
 .oval {
   border: 2px solid pink;
   border-radius: 35px;
-  width: 150px;
+  width: 250px;
   height: 45px;
   line-height: 45px;
   font-size: 15px;
   color: black; 
 }
-
 .oval:nth-child(1) {
   background-color: #FFF5F7;
 }
 
-.inquiry{
+.oval_next{
+  position: relative;
+}
+.oval_next::before{
+  content: "";
+  position: absolute;
+  top: 15%;
+  right: -55px;
+  transform:rotate(-90deg);
+  border: 15px solid transparent;
+  border-top: 20px solid var(--color2);   /* 好みで色を変えてください */ 
+}
+.red{
+  color: red;
+}
+.seminar{
   margin: 100px 0 0 0;
 }
 #inquiry .tabs {
-    margin-top: 50px;
-    padding-bottom: 40px;
-    background-color: #fff;
-    border: 3px solid var(--color2);
-    width: 70%;
-    margin: 0 auto;
-  }
+  margin-top: 50px;
+  padding: 50px 0 40px 0;
+  background-color: #fff;
+  width: 70%;
+  margin: 0 auto;
+}
 #inquiry .tab_item {
   position: relative;
   width: calc(100%/2);
@@ -144,7 +157,8 @@ header li a:hover::after {
   text-align: center;
   font-weight: bold;
   transition: all 0.2s ease;
-  }
+  box-sizing:border-box;
+}
 #inquiry .tab_item::after {
   position: absolute;
   left: 15%;
@@ -230,60 +244,59 @@ header li a:hover::after {
   }
   
 #inquiry .tab_content {
-    display: none;
-    padding: 40px 40px 0;
-    clear: both;
-    /* overflow: hidden; */
-  }
+  display: none;
+  padding: 40px;
+  border: 3px solid var(--color2);
+  clear: both;
+}
 #inquiry .tab_content_description{
-    display: flex;
-    /* position: absolute; */
-    
-   }
+  display: flex;
+}
 
-  #employee_training:checked ~ #training_content,
-  #smile_training:checked ~ #smile_content,
-  #hospitality:checked ~ #hospitality_content {
-    display: block;
-  }
+#employee_training:checked ~ #training_content,
+#smile_training:checked ~ #smile_content,
+#hospitality:checked ~ #hospitality_content {
+  display: block;
+}
+
+#inquiry .tabs input:checked + .tab_item {
+  background-color: var(--color1);
+  color: #000;
+  position: relative;
+}
+
+#inquiry .tabs input:checked + .tab_item::after{
+  position: absolute;
+  transform: scale(0,0);
+  transform: left top;
+  transition: transform 0.3s;
+}
+
+#inquiry .tabs input:checked + .tab_item:hover::after{
+  transform: scale(0,0);
+}
+.form button[type="submit"] {
+  width: 250px;
+  height: 40px;
+  margin-top: 50px;
+  border-radius: 37.5px;
+  background: #fbc3bc;
+  border: 1px solid #fbc3bc;
+  font-size: 24px; 
+  color: #000;
+  cursor: pointer; 
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; /* ホバー時のトランジションを設定 */
+}
   
-  #inquiry .tabs input:checked + .tab_item {
-    background-color: var(--color1);
-    color: #000;
-    position: relative;
-  }
+.form button[type="submit"]:hover {
+  background-color: #fff;
+  color: #fbc3bc;
+}
 
-  #inquiry .tabs input:checked + .tab_item::after{
-    position: absolute;
-    transform: scale(0,0);
-    transform: left top;
-    transition: transform 0.3s;
-  }
+a{
+  padding-top: 20px;
+}
 
-  #inquiry .tabs input:checked + .tab_item:hover::after{
-    transform: scale(0,0);
-  }
-  .form button[type="submit"] {
-    width: 250px;
-    height: 40px;
-    border-radius: 37.5px;
-    background: #fbc3bc;
-    border: 1px solid #fbc3bc;
-    font-size: 24px; 
-    color: #000;
-    cursor: pointer; 
-    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; /* ホバー時のトランジションを設定 */
-  }
-  
-  .form button[type="submit"]:hover {
-    background-color: #fff;
-    color: #fbc3bc;
-  }
-
-  a{
-    padding-top: 20px;
-  }
-  
   /* フッダー */
 footer{
   height: 200px;
