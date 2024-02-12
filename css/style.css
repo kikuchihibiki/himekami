@@ -290,16 +290,19 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 }
 
 /* セミナーの感想 */
+#li2{
+  margin: 100px 5% 0 5%;
+}
 .impressions {
   display: flex;
   flex-wrap: wrap;
-  margin: 100px 0;
+  width: 100%;
+  margin: 30px 10% 150px 5%;
 }
 .impressions_item {
-  width: calc((100% - 47.5%) / 1.5);
+  width: 40%;
   height: 150px;
   border: 1px solid #FBC3BC;
-  margin: 50px auto;
   padding: 20px 75px;
   border-radius: 100px;
   position: relative;
@@ -311,9 +314,15 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
   text-align: left;
   border: 5px solid #FBC3BC;
   margin: -10px -60px;
-  padding: 30px 20px;
+  padding: 30px 40px;
   border-radius: 100px;
   position: absolute;
+}
+.i_c_item_a{
+  margin: 10px 90px 40px 0;
+}
+.i_c_item_b{
+  margin: 40px 0 40px 90px;
 }
 .impressions_item img {
   position: absolute;
